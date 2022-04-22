@@ -16,11 +16,11 @@
 </br>
 
 <p align="center">
-  <img src="screens/img1.png" width="150" title="hover text">
-  <img src="screens/img2.png" width="150" title="hover text">
-  <img src="screens/img3.png" width="150" title="hover text">
-  <img src="screens/img4.png" width="150" title="hover text">
-  <img src="screens/img5.png" width="150" title="hover text">
-  <img src="screens/img6.png" width="150" title="hover text">
-  <img src="screens/img7.png" width="150" title="hover text">
+  <img src="screens/img1.webp" width="150" title="hover text">
+  <img src="screens/img2.webp" width="150" title="hover text">
+  <img src="screens/img3.webp" width="150" title="hover text">
+  <img src="screens/img4.webp" width="150" title="hover text">
+  <img src="screens/img5.webp" width="150" title="hover text">
+  <img src="screens/img6.webp" width="150" title="hover text">
+  <img src="screens/img7.webp" width="150" title="hover text">
 </p>

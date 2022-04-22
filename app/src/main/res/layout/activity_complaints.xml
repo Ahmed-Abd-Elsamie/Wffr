@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.ComplaintsActivity"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+
+            >
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:id="@+id/btn_back"
+                android:layout_margin="15dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/suggest"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_weight="1"
+
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_textsms_white_35"
+                android:layout_margin="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/txt_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/input_text"
+                        android:hint="@string/topic"
+                        android:paddingVertical="5dp"
+                        android:textSize="@dimen/button_text_size"
+                        android:inputType="text"
+                        android:paddingStart="20dp"
+                        android:visibility="visible"
+                        android:padding="10dp"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/txt_notes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/shop_view_notes_ed_height"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/input_text"
+                        android:gravity="start|top"
+                        android:hint="@string/notes"
+                        android:padding="18dp"
+                        android:inputType="text"
+                        android:textAlignment="viewStart"
+                        android:visibility="visible"
+
+                        />
+
+
+                    <Button
+                        android:id="@+id/btn_send"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_design"
+                        android:elevation="4dp"
+                        android:text="@string/send"
+                        android:textSize="@dimen/button_text_size"
+                        android:translationZ="10dp"
+                        android:layout_gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/progress_bar"
+                    android:visibility="gone"
+
+                    />
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.wffr">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/playstore"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/playstore"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wffr">
+        <activity android:name=".ui.activities.AppWebBrowser"></activity>
+        <activity android:name=".ui.activities.NotificationLauncherActivity" />
+        <activity android:name=".ui.activities.VerifyEmailActivity" />
+        <activity android:name=".WffrBaseActivity" />
+        <activity
+            android:name=".ui.activities.ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.activities.NoInternetActivity"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ui.activities.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activities.MonthReportsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ReportsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ShopProductsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ProductPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CategoriesViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FaqsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PoliciesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ComplaintsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.AddShopActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ContactUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FavoritesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PrevOrdersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.NotificationsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".utils.NotificationPublisherReceiver">
+            <intent-filter>
+                <action android:name="CALL_ACTION" />
+                <action android:name="NO_ACTION" />
+                <action android:name="MAYBE_ACTION" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".utils.WffrFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".utils.ShopRatingReceiver">
+            <intent-filter>
+                <action android:name="rat" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

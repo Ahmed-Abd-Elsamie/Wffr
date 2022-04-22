@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.VerifyEmailActivity"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+
+            >
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:id="@+id/btn_back"
+                android:layout_margin="15dp"
+                android:rotation="180"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/verify_email"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/cairosemibold"
+
+                />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_verified_user_white_35"
+                android:layout_margin="10dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:paddingTop="25dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp"
+                        android:background="@drawable/input_text"
+
+                        >
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:srcCompat="@drawable/ic_baseline_verified_user_35"
+                            android:layout_gravity="center"/>
+                        <EditText
+                            android:id="@+id/txt_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/verify_code"
+                            android:layout_marginLeft="15dp"
+                            android:background="#00000000"
+                            android:textSize="16dp"
+                            android:inputType="number"
+                            android:maxLength="5"
+                            android:fontFamily="@font/cairosemibold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_design"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="@string/verify_email"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/btn_verify"
+                        android:fontFamily="@font/cairosemibold"
+
+                        />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_design"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="اعاده الارسال"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/btn_resend_verify"
+                        android:fontFamily="@font/cairosemibold"
+                        android:enabled="false"
+                        android:clickable="false"
+
+                        />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar_loading"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/progress_bg"
+                android:padding="5dp"
+                android:elevation="10dp"
+                android:visibility="gone"
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</layout>

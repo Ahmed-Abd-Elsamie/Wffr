@@ -1,0 +1,43 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="lang_entries">
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>@string/en</item>
+        <item>@string/ar</item>
+    </string-array>
+
+    <string-array name="pass_entries">
+        <item>@string/forget_pass2</item>
+        <item>@string/ch_pass</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <array name="initial_slider_values">
+        <item>0.0</item>
+        <item>100.0</item>
+    </array>
+
+    <array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August  </item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+</resources>

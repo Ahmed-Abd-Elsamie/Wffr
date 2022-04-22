@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687811584187",
+    "firebase_url": "https://wffr-application.firebaseio.com",
+    "project_id": "wffr-application",
+    "storage_bucket": "wffr-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687811584187:android:3cc9022ea3e07e779a099e",
+        "android_client_info": {
+          "package_name": "app.wffr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687811584187-oqh50e6d2p3c34ud2g80ge1ten1fg0hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.wffr",
+            "certificate_hash": "6b869f2370cd016290eafb722aa80ce39c58a998"
+          }
+        },
+        {
+          "client_id": "687811584187-ag6if1rsvdujq53lm31v3iqqfm7i6tjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3v8YAPEuotwAnGAXYwC__TI5-Z-n98To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687811584187-ag6if1rsvdujq53lm31v3iqqfm7i6tjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_baseline_score_35"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/img_message"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairosemibold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/txt_title"
+            android:textDirection="ltr"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_design"
+            android:text="@string/exchange_points"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/btn_exchange"
+            android:fontFamily="@font/cairosemibold"
+            android:visibility="gone"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairosemibold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:text="@string/points_desc"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/txt_message"
+            android:lineSpacingExtra="5dp"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_design"
+            android:text="@string/done"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/btn_done"
+            android:fontFamily="@font/cairosemibold"
+
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

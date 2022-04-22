@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="tab_view_text_size">8dp</dimen>
+    <dimen name="tab_view_text_size_new">10dp</dimen>
+    <dimen name="tab_view_width_height">21dp</dimen>
+    <dimen name="home_horizontal_scroll_text_size">9dp</dimen>
+    <dimen name="res_tv_item_text_size">16dp</dimen>
+    <dimen name="res_tv_percent_text_size">13dp</dimen>
+    <dimen name="res_img_circle_color_text_size">5dp</dimen>
+    <dimen name="grid_view_icon_height">80dp</dimen>
+    <dimen name="res_view_padding_horizontal">10dp</dimen>
+    <dimen name="login_ed_padding_start">75dp</dimen>
+    <dimen name="button_text_size">18dp</dimen>
+    <dimen name="login_tv_text_size_ar">16dp</dimen>
+    <dimen name="login_tv_text_size_en">16dp</dimen>
+    <dimen name="search_tv_text_size">16dp</dimen>
+    <dimen name="nav_tv_text_size">22dp</dimen>
+    <dimen name="search_tv_range_bar_text_size">12dp</dimen>
+    <dimen name="featured_view_text_size1">13dp</dimen>
+    <dimen name="featured_view_text_size2">9dp</dimen>
+    <dimen name="feat_view_icon_width_height">20dp</dimen>
+    <dimen name="feat_view_icon_width_height2">40dp</dimen>
+    <dimen name="feat_view_icon_width_height_new">60dp</dimen>
+    <dimen name="account_view_text_size1">17dp</dimen>
+    <dimen name="mar_pg_view_text_size1">18dp</dimen>
+    <dimen name="account_view_text_size2">11dp</dimen>
+    <dimen tools:override="true" name="design_navigation_separator_vertical_padding">1dp</dimen>
+    <dimen name="account_view_progress_text_size">14dp</dimen>
+    <dimen name="account_view_icon_width_height">90dp</dimen>
+    <dimen name="shop_view_notes_ed_height">123dp</dimen>
+    <dimen name="shop_view_ed_padding_start">75dp</dimen>
+    <dimen name="nav_view_vertical_margin">10dp</dimen>
+    <dimen name="nav_view_horiz_margin">20dp</dimen>
+    <dimen name="star_view_width_height">12dp</dimen>
+    <dimen name="nav_icon_width_height">30dp</dimen>
+    <dimen name="home_res_view_height">35mm</dimen>
+    <dimen name="home_slider_view_height">175dp</dimen>
+    <dimen name="res_feat_img_height">150dp</dimen>
+    <dimen name="res_pro_item_height">215dp</dimen>
+    <dimen name="res_pro_item_width">160dp</dimen>
+    <dimen name="res_pro_img_height">130dp</dimen>
+    <dimen name="dash_lin_seek_bar_height">170dp</dimen>
+    <dimen name="res_dash_lin_seek_bar_margin">10dp</dimen>
+    <dimen name="res_feet_lin_margin">4dp</dimen>
+    <dimen name="toolbar_photo_padding_vertical">6dp</dimen>
+    <dimen name="home_nav_photo_padding">7dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">30dp</dimen>
+
+
+
+</resources>

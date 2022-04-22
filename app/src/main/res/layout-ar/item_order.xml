@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:layoutDirection="rtl"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/product"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/cairosemibold_0"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:textColor="@color/black"
+                android:fontFamily="@font/cairosemibold"
+                android:textSize="18dp"
+                android:id="@+id/txt_name"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/cairosemibold_0"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="before"
+                android:textColor="@color/black"
+                android:fontFamily="@font/cairosemibold"
+                android:textSize="18dp"
+                android:id="@+id/txt_before"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/discount"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/cairosemibold_0"
+                android:textSize="18dp"
+                android:id="@+id/disc_title"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="discount"
+                android:textColor="@color/black"
+                android:fontFamily="@font/cairosemibold"
+                android:textSize="18dp"
+                android:id="@+id/txt_discount"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/cairosemibold_0"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textColor="@color/black"
+                android:fontFamily="@font/cairosemibold"
+                android:textSize="18dp"
+                android:id="@+id/txt_date"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#6E6E6E"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/cairosemibold_0"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:textColor="@color/black"
+                android:fontFamily="@font/cairosemibold"
+                android:textSize="18dp"
+                android:id="@+id/txt_price"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

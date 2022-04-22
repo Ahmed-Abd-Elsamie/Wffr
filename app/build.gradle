@@ -1,0 +1,121 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "app.wffr"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 8
+        versionName "1.7"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+
+    dataBinding {
+        enabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+//apply plugin: 'com.huawei.agconnect' // huawei
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.android.play:core:1.8.3'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    def supportVersion = "28.0.0"
+    def glideVersion = '4.11.0'
+    def retrofitVersion = '2.8.1'
+
+
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.android.support:cardview-v7:$supportVersion"
+    implementation "com.android.support:recyclerview-v7:$supportVersion"
+    implementation "com.android.support:design:$supportVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation("com.squareup.okhttp3:okhttp:4.4.0")
+
+    // auto slider
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    //implementation 'com.huawei.hms:maps:4.0.0.302'//=======> Huawei maps
+
+    //implementation 'com.github.iDroidDev:MapKit:1.0.0'//=======> Huawei maps
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+
+    implementation 'com.github.zbra-solutions:android-linq:1.1.0'
+
+
+    // firebase
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+
+
+    implementation 'com.github.jd-alexander:library:1.1.0'
+
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v2.2.4'
+
+    implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+
+    implementation 'org.jsoup:jsoup:1.10.2'
+
+}

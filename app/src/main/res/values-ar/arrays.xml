@@ -1,0 +1,43 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="lang_entries">
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>@string/en</item>
+        <item>@string/ar</item>
+    </string-array>
+
+    <string-array name="pass_entries">
+        <item>@string/forget_pass2</item>
+        <item>@string/ch_pass</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>ذكر</item>
+        <item>انثي</item>
+    </string-array>
+
+    <array name="initial_slider_values">
+        <item>0.0</item>
+        <item>100.0</item>
+    </array>
+
+    <array name="months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>ابريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>اغسطس</item>
+        <item>سبتمبر</item>
+        <item>اكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </array>
+
+</resources>

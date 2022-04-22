@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ama.lax.ui.activities.HomeActivity"
+        android:id="@+id/drawer_layout"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="15dp"
+
+                    >
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_nav"
+                        android:paddingVertical="4dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+
+                        android:layout_gravity="center"
+
+                        app:srcCompat="@drawable/menu"
+
+                        />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_logo"
+                        android:paddingVertical="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/logo4"
+                        android:layout_gravity="center"
+
+
+                        />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <ProgressBar
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:background="@drawable/progress_bg"
+                            android:elevation="5dp"
+                            android:id="@+id/prog_notify"
+
+
+                            />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/btn_notify"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:paddingVertical="4dp"
+                            app:srcCompat="@drawable/notification_img"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:background="@drawable/notification_circle"
+                            android:text="0"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:textSize="10dp"
+                            android:fontFamily="@font/cairosemibold"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:id="@+id/txt_notify"
+                            android:visibility="gone"
+
+                            />
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/fragment_container"
+                    android:background="#EAE7E7"
+
+                    >
+
+                </FrameLayout>
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/nav_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/rectanglar_ed"
+                    app:menu="@menu/bottom_nav_menu"
+                    android:elevation="0dp"
+                    app:elevation="10dp"
+                    android:layout_alignParentBottom="true"
+
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/lin_social"
+                    android:id="@+id/side_scroll"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                            >
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:src="@drawable/ic_logo"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="60dp"
+                                app:civ_border_width="3dp"
+                                app:civ_border_color="@color/colorPrimaryDark"
+                                android:id="@+id/img_drawer_profile"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/app_name"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:id="@+id/txt_user_name"
+
+                                />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#575757"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+
+
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_login"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_login_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/sign_in"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/txt_login_state"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_home"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_home_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/home_page"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_pre_orders"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_shopping_cart_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/prev_orders"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_fav"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_favorite_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/favorites"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_contact"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_call_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/contact_us"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_settings"
+                                android:layout_gravity="center"
+
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_outline_settings_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/settings"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_add_shop"
+                                android:layout_gravity="center"
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_add_business_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/add_shop"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/btn_login_shop"
+                                android:layout_gravity="center"
+                                android:visibility="gone"
+
+                                >
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:srcCompat="@drawable/ic_baseline_shop_35"
+                                    android:layout_margin="10dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/search_tv_text_size"
+                                    android:text="@string/login_shop"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center"
+
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ExpandableListView
+                            android:id="@+id/about_us_menu"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layoutDirection="rtl"
+
+                            />
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lin_social"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentBottom="true"
+
+
+                    >
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/progress_bar_social"
+
+                        />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/soc_maedia"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:gravity="center"
+
+
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/linicons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+
+                        >
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/img_twiter"
+                            android:layout_marginRight="35dp"
+                            app:srcCompat="@drawable/twitter1" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/img_face"
+                            app:srcCompat="@drawable/facebook1" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/img_instagram"
+                            android:layout_marginLeft="35dp"
+                            app:srcCompat="@drawable/instagram1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</layout>

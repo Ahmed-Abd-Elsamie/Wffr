@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.FeaturedFragment">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+
+            >
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/colorBackground"
+                    android:layoutDirection="locale"
+                    tools:context=".ui.notifications.NotificationsFragment">
+
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/image_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:background="@color/colorBackground"
+                        app:sliderAnimationDuration="1000"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="1000"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorSelectedColor="#5A5A5A"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="2"
+                        app:sliderStartAutoCycle="true"
+                        android:layout_marginBottom="10dp"
+
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/lin_offers"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/txt_feat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:padding="10dp"
+                            android:text="@string/featured_offers"
+                            android:textAlignment="gravity"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/cairosemibold"
+                            android:background="@drawable/btn_design"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            >
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginHorizontal="10dp"
+                                android:id="@+id/recycler_featured"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:descendantFocusability="blocksDescendants"
+                                android:scrollbars="none"
+                                android:background="@color/colorBackground"
+                                android:clipToPadding="true"
+                                android:paddingBottom="70dp"
+
+                                />
+
+
+
+
+                            <ProgressBar
+                                android:id="@+id/progress_bar_feat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_centerVertical="true"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/progress_bg"
+                                android:padding="5dp"
+                                android:elevation="10dp"
+                                android:visibility="gone"
+
+                                />
+
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/no_data"
+                            android:layout_gravity="center"
+                            android:alpha="0.5"
+                            android:id="@+id/img_no_feat"
+                            android:visibility="gone"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+    </FrameLayout>
+
+</layout>
+

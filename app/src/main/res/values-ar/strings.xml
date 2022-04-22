@@ -1,0 +1,427 @@
+<resources>
+    <string name="app_name">وفَّر</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_home">Offers</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Featured</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_home_page2">HomePage2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="inv_tele">Please Enter A Valid number</string>
+    <string name="inv_img">Please Choose Photo</string>
+    <string name="inv_name">Please Enter A Valid Name</string>
+    <string name="rong_email">Wrong Email</string>
+    <string name="diff_passes">NoN Equal passwords</string>
+    <string name="choose_gend">please Choose Gender</string>
+    <string name="choose_pass">Please Enter Password</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+
+
+
+
+    <string name="menu_home">Sign In As Shop</string>
+    <string name="loved_us">Loved Us?</string>
+    <string name="loved_you">I Love</string>
+    <string name="loved_ok">It\'s OK </string>
+    <string name="loved_no">No</string>
+    <string name="rate_shop">Rate Shop</string>
+    <string name="rate">Rate</string>
+    <string name="menu_gallery">Contact Us</string>
+    <string name="menu_slideshow">Settings</string>
+    <string name="pass_word">Password</string>
+    <string name="forget_pass2">Forget Password</string>
+    <string name="ch_pass">تغيير كلمه المرور</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="ph_num">Phone Number</string>
+    <string name="gender">النوع</string>
+    <string name="upl_photo">Upload Photo</string>
+    <string name="upl_personal_photo">Upload Personal Photo</string>
+    <string name="account_available">ليس لديك حساب ؟</string>
+    <string name="sign_in_now">انشاء حساب الان</string>
+    <string name="tshirt">TShirt</string>
+    <string name="off">30% Off</string>
+    <string name="off50">50% Off</string>
+    <string name="all_ofer">All Offers</string>
+    <string name="resturants">Restaurants</string>
+    <string name="clothes">Clothes</string>
+    <string name="shoes">Shoes</string>
+    <string name="health_beauty">Health And Beauty</string>
+    <string name="gen_services">General Services</string>
+    <string name="press_here">Press Here</string>
+    <string name="kfc_hen">Kfc Chicken</string>
+    <string name="adidas">Adidas</string>
+
+    <string name="paid_mon">Paid Money</string>
+    <string name="shops">Shops</string>
+    <string name="item_total">Items Total</string>
+    <string name="save_rate">Saving Rate</string>
+    <string name="saving_balance">Saving Balance</string>
+    <string name="sign_as">Sign In As Shop</string>
+    <string name="contact">Contact Us</string>
+    <string name="save_to">Save To</string>
+    <string name="user">User</string>
+    <string name="soc_maedia">تابعنا علي</string>
+    <string name="us_name"></string>
+    <string name="ch_lang">Change Language</string>
+    <string name="ch_accont">Change account</string>
+    <string name="arabic">العربيه</string>
+    <string name="english">الانجليزيه</string>
+    <string name="main_menu">Home Page</string>
+    <string name="prev_menu">Previous Orders</string>
+    <string name="favor_menu">Favourite</string>
+
+    <string name="about_menu">About Us</string>
+    <string name="add_menu">Add Restaurant</string>
+    <string name="connected_wifi">You Are Connected Via WiFi</string>
+    <string name="connected_mobile">You Are Connected Via Mobile</string>
+
+    <string name="special_offer">Featured Offers</string>
+
+    <string name="kfc_definition">Kfc is an international restaurants chain \n introducing fast meals and has many branches in \n all kuwait areas.Their meals are just chicken</string>
+
+    <string name="kfc_address">Kuwait - 360 compound - circular way</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <!--    <string name="sync_title">Sync email periodically</string>-->
+    <string name="en" translatable="false">en-us</string>
+    <string name="ar" translatable="false">ar</string>
+    <string name="ok">submit</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثي</string>
+    <string name="mydata">My Data</string>
+    <string name="ac_type">Activity Type</string>
+
+    <string name="gender_type">Gender</string>
+
+
+    <string name="address">Address</string>
+    <string name="back_pass">Restore Password</string>
+    <string name="ver_code">Verification Code</string>
+    <string name="comp">Suggestions &amp; Complaints</string>
+    <string name="record">Record</string>
+    <string name="cal_from">From</string>
+    <string name="cal_to">To</string>
+    <string name="tab_disp">Display All</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_code">&#160;Code&#160;</string>
+    <string name="tab_producer">Producer</string>
+    <string name="tab_bef_disc">Before Discount</string>
+    <string name="tab_disc">Discount</string>
+    <string name="tab_total">Total</string>
+    <string name="tab_date">Date</string>
+    <string name="reports">Monthly Reports</string>
+    <string name="balance">Operations</string>
+    <string name="ab_wffr">About Waffr</string>
+    <string name="faq">FAQ</string>
+    <string name="what_waffr">what is waffr?</string>
+    <string name="wht_wffr_do">what does waffr do?</string>
+    <string name="why_wffr">why should i prefer to order from waffr?</string>
+    <string name="cost">How much does waffr services using cost?</string>
+    <string name="q1ans">
+Wffr is a leading company that connects customers with their favorite restaurants over the Internet and operates in the State of Kuwait \ n We provide an easy and fast way to connect customers with their favorite restaurants. All it takes is simple and easy steps, using your personal computer, your mobile phone, or even your tablet device, to choose your preferred order through Wffr.</string>
+    <string name="q2ans">We simply receive the order submitted by you and send it to the restaurant through a connected program between Wffr and the restaurant, so you do not have to deal with the hassles of submitting the order by phone, and we make sure that you receive your order on time.</string>
+    <string name="q3ans">Wffr is a huge dining hall for many restaurants, so you do not need to go through the hassle of remembering restaurant numbers, waiting on the phone, getting a busy response when managing the restaurant number, or getting the wrong order due to a mistake in calling the phone. Besides, by using Wffr, you can view menus, pictures of dishes and pictures of all your favorite restaurants through our website in an easy way.</string>
+    <string name="q4ans">The only additional cost that can be added to the order value relates only to the restaurant delivery fee.</string>
+
+    <string name="sign_in_nav">SignIn</string>
+    <string name="q5">what if i forgot my password?</string>
+    <string name="q6">How to order from waffr?</string>
+    <string name="q7">How to register my data?</string>
+    <string name="q8">How to use waffr services?</string>
+    <string name="q9">How to join waffr?</string>
+    <string name="qten">How to cancel my order?</string>
+    <string name="q11">why should i register?</string>
+    <string name="q12">some restaurants i like don\'t exist in waffr?</string>
+    <string name="q13">How to dial through waffr?</string>
+    <string name="q14">How to buy coupon?</string>
+    <string name="q5ans">If you repeatedly enter the email / password 5 times, your account will be temporarily suspended. The system will automatically send the email confirmation link to your email address, and you must click on this link in order to activate your account. In this email, we will also ask you to choose a new password to use for FoodBoy.</string>
+    <string name="q6ans">Simply, follow these instructions:
+
+a. Initially, you can order as a registered member or as a speed-order without registration. Click here to register.
+B. Choose the region you live in and click "Order"
+C. Choose your favorite restaurant from the list by clicking on the name or logo.
+Dr.. Check the box next to your choice of item and add the number in the quantity you want next to the box. Scroll to the bottom of the page to view all the listings and click Next through the cart.
+E. Make sure all the information is correct, then press "Submit Order" to fulfill your request. Your order will be directed to the restaurant immediately. It should be noted that if you use our service for the first time, we will call your mobile phone number in order to verify your data.</string>
+    <string name="q7ans"></string>
+    <string name="q8ans"></string>
+    <string name="q9ans"></string>
+    <string name="weekofs">Weekly Offers</string>
+    <string name="disc">Discount</string>
+    <string name="newprod">New Products</string>
+    <string name="urgovern">What Is Your Governorate</string>
+    <string name="wrngeorpass">Wrong Email OR PassWord</string>
+    <string name="featofs">Featured Offers</string>
+    <string name="noofs">No Offers exist</string>
+    <string name="sign_in_success">Signed In Successfully</string>
+    <string name="call">Dial</string>
+    <string name="faveofs">Favourite Offers</string>
+    <string name="billofs">Total Billed offers</string>
+    <string name="qtenans">You can cancel your order (either cash, prepaid, or credit cards) within 5 minutes of submitting your order. Please note that you cannot cancel your order afterwards due to the ability to fulfill your order by the restaurant. In the event that your order is delayed for more than 20 minutes after the delivery time specified by the restaurant, you can also cancel your order. For prepaid card requests, please read the terms and conditions of the prepaid card.
+
+(Payment service by prepaid cards is only available on our website dedicated to serving the State of Kuwait and the Kingdom of Bahrain)</string>
+    <string name="q11ans"></string>
+    <string name="q12ans"></string>
+    <string name="q13ans">You can speak with the help employee directly online during business hours every day 24 hours a day, or by calling the hotline, or sending your suggestions through the Share your opinion button on the home page.</string>
+    <string name="q14ans">At the bottom of the home page, click on the Talabat Gift Coupons icon, then choose the desired gift coupon amount.
+
+In the event that the recipient does not register with Talabat, the recipient of the gift coupon must register to benefit from this gift coupon after clicking on the confirmation link in the confirmation email. Upon registering an account, the gift coupon will be automatically converted to Talabat balance with the same value as the gift coupon.\nIn the event that the user has an account with Talabat, then when you click on the confirmation link in the electronic notification message, the user will be able to see the gift coupon on the “My Account” page, and the gift coupon will be automatically transferred to the order balance of the same value of the gift coupon.In the event that the user has an account with Talabat, then when you click on the confirmation link in the electronic notification message, the user will be able to see the gift coupon on his account page "My Account" and the gift coupon will be automatically transferred to the order balance of the same value of the gift coupon. (This service is only available on our website dedicated to serving the State of Kuwait)
+    </string>
+
+    <string name="sign_in_plz">Please Sign In!</string>
+    <string name="govern_plz">Please Select Governorate</string>
+    <string name="submit_success">Submitted successfully</string>
+    <string name="select">Select</string>
+    <string name="select_govern">Select City</string>
+    <string name="sign_in_plz2">You should Sign In to FindOut your favourites!</string>
+
+
+    <string name="about_string">We are a team of digital marketing specialists working in Egypt and the Arab world.\n\nOur vision is to provide professional services to our clients, and to work on continuous development in our capabilities and capabilities, to achieve our mission in implementing our projects perfectly.\ \n\nProfessional implementation of projects and achieving the customer\'s vision in his new website or the marketing services that we provide to him in accordance with the marketing rules and consumer behavior\.\n\nOur goals are to gain the confidence of our customers through their satisfaction with our services that we provide to them with love, and then the circle of our customers is expanding day by day and we are always at the forefront</string>
+    <string name="pref_key" translatable="false">langwaffr</string>
+    <string name="pass_key" translatable="false">passwaffr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>-->
+
+    <string name="featured_offers">عروض مميزه</string>
+    <string name="no_featured_offers">لا يوجد عروض مميزه</string>
+    <string name="no_total_bill">لا يوجد اجمالي فاتوره</string>
+    <string name="total_bill">اجمالي فاتوره</string>
+    <string name="offers">عروض</string>
+    <string name="featured">مميز</string>
+    <string name="search">بحث</string>
+    <string name="account">حسابي</string>
+
+    <string name="after_discount">بعد الخصم</string>
+    <string name="total_discount">الخصم الكلي</string>
+    <string name="discount_ratio">نسبه الخصم</string>
+    <string name="total">اجمالي</string>
+    <string name="operations">عمليه</string>
+    <string name="monthly_reports">تقارير شهريه</string>
+    <string name="records">السجل</string>
+    <string name="suggest">اقتراحات وشكاوي</string>
+
+    <string name="home_page">الصفحه الرئيسيه</string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="sign_out">تسجيل خروج</string>
+    <string name="prev_orders">الطلبات السابقه</string>
+    <string name="favorites">المفضله</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="settings">الاعدادات</string>
+    <string name="add_shop">اضافه محل</string>
+    <string name="about_wffr">عن وفر</string>
+    <string name="policies">السياسات والشروط</string>
+    <string name="faqs">اسئله متكرره</string>
+
+    <string name="name">الاسم</string>
+    <string name="email">الايميل</string>
+    <string name="pass">كلمه المرور</string>
+    <string name="conf_pass">تاكيد كلمه المرور</string>
+    <string name="phone">رقم المحمول</string>
+    <string name="notes">ملاحظات</string>
+    <string name="send">ارسال</string>
+
+    <string name="topic">الموضوع</string>
+
+    <string name="old_pass">كلمه المرور القديمه</string>
+    <string name="new_pass">كلمه المرور الجديده</string>
+    <string name="save">حفظ</string>
+    <string name="cities">المحافظات</string>
+    <string name="edit_profile">تعديل الحساب</string>
+    <string name="pass_recover">استرجاع كلمه المرور</string>
+    <string name="recover">استرجاع</string>
+    <string name="forget_pass">نسيت كلمه المرور ؟</string>
+    <string name="login">تسجيل دخول</string>
+
+
+    <string name="notifications">الاشعارات</string>
+    <string name="up_to">خصم حتي</string>
+    <string name="coupon">كوبون</string>
+    <string name="upload_ph">تحميل صوره</string>
+    <string name="accept_terms">اوافق علي </string>
+    <string name="back">عوده</string>
+    <string name="register">تسجيل</string>
+    <string name="from">من</string>
+    <string name="to">الي</string>
+    <string name="shop">المحل</string>
+    <string name="select_city">اختر المدينه</string>
+    <string name="change_lang">تغيير اللغه</string>
+    <string name="no_sel_city">لم يتم اختيار مدينه</string>
+    <string name="select_language">اختر اللغه</string>
+
+    <string name="no_fav">لا توجد منتجات مفضله</string>
+    <string name="no_products">لا توجد منتجات</string>
+    <string name="no_prev_orders">لا توجد طلبات سابقه</string>
+    <string name="no_reports">لا توجد تقارير</string>
+
+    <string name="no_internet">لا يوجد اتصال بالانترنت</string>
+
+    <string name="product">المنتج</string>
+    <string name="price">السعر</string>
+    <string name="discount">الخصم</string>
+    <string name="date">التاريخ</string>
+
+    <string name="month">الشهر</string>
+    <string name="wifi_conn">متصل عن طريق الواي فاي</string>
+    <string name="data_conn">متصل عن طريق بيانات الهاتف</string>
+
+    <string name="city_changed">تم تغير المدينه</string>
+
+    <string name="error_enter_name">ادخل الاسم</string>
+    <string name="error_enter_valid_name">ادخل الاسم بطريقه صحيحه</string>
+    <string name="error_enter_email">ادخل الايميل</string>
+    <string name="error_enter_valid_email">ادخل الايميل بطريقه صحيحه</string>
+    <string name="error_enter_pass">ادخل كلمه المرور</string>
+    <string name="error_enter_conf_pass">يجب تاكيد كلمه المرور</string>
+    <string name="error_pass_length">يجب ان لا تكون كلمه المرور اقل من 6 احرف</string>
+    <string name="error_enter_phone">ادخل رقم المحمول</string>
+    <string name="error_enter_valid_phone">ادخل رقم المحمول بشكل صحيح</string>
+    <string name="error_enter_image">اختر صوره</string>
+    <string name="error_confirm_policy">يجب الموافقه علي السياسات و الشروط</string>
+    <string name="error_same_pass">كلمه المرور يجب ان تكون متطابقه</string>
+
+    <string name="register_success">تم التسجيل بنجاح</string>
+    <string name="not_register_success">لم يتم التسجيل تاكد من البيانات المدخله</string>
+    <string name="error_login">الايميل او كلمه المرور غير صحيحه</string>
+    <string name="login_success">تم تسجيل الدخول بنجاح</string>
+
+    <string name="change_pass_empty">ادخل كلمه المرور القديمه</string>
+    <string name="new_pass_empty">ادخل كلمه المرور الجديده</string>
+
+    <string name="pass_reset">افحص الايميل الخص بك للحصول علي كلمه مرور جديده</string>
+    <string name="pass_reset_error">الايميل غير مسجل</string>
+
+    <string name="coupon_expire">انتهت صلاحيه الكوبون</string>
+    <string name="this_coupon_expire">انتهت صلاحيه هذا الكوبون</string>
+    <string name="time_rem_expire">وقت صلاحيه هذا الكوبون</string>
+
+    <string name="fav_added">تم الاضافه الي المفضله</string>
+    <string name="fav_removed">تم الازاله من المفضله</string>
+    <string name="branches">الفروع</string>
+
+    <string name="column_count">2</string>
+
+    <string name="cancel">الغاء</string>
+
+    <string name="request_shop_success">تم استلام طلبك بنجاح</string>
+    <string name="request_shop_error">لم يتم ارسال طلب تأكد من البيانات المدخله</string>
+
+    <string name="update_success">تم التحديث بنجاح</string>
+    <string name="update_error">لم يتم التحديث راجع البيانات المدخله</string>
+
+    <string name="refresh">تحديث</string>
+
+    <string name="shop_name_empty">ادخل الاسم</string>
+    <string name="note_empty">ادخل بعض الملاحظات</string>
+    <string name="note_error">ادخل الملاحظات بطريقه صحيحه</string>
+    <string name="old_pass_error">كلمه المرور القديمه غير صحيحه</string>
+
+    <string name="gps_alert">تحديد الموقع غير مفعل , هل تريد التفعيل الان ؟</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="login_shop">تسجيل دخول كمحل</string>
+    <string name="verify_email">تفعيل رقم المحمول</string>
+    <string name="verify_code">كود التفعيل</string>
+    <string name="verify_empty_code">ادخل كود التفعيل</string>
+    <string name="verify_wrong_code">خطاء في كود التفعيل</string>
+    <string name="verify_error">لم يتم التاكد من الايميل تاكد من اتصالك باانترنت</string>
+
+    <string name="agree">موافق</string>
+    <string name="disagree">غير موافق</string>
+
+    <string name="sent_success">تم الارسال بنجاح</string>
+    <string name="sent_error">لم يتم الارسال تأكد من البيانات</string>
+    <string name="note_title_empty">ادخل الموضوع</string>
+    <string name="note_desc_empty">ادخل بعض الملاحظات</string>
+    <string name="note_topic_error">ادخل الموضوع بطريقه صحيحه</string>
+    <string name="note_desc_error">ادخل الملاحظات بطريقه صحيحه</string>
+
+    <string name="no_notifications">لا توجد اشعارات</string>
+
+    <string name="first_char_error">اول حرف يجب ان يكون حرف ابجدي</string>
+
+    <string name="shop_rating">تقييم المتجر</string>
+
+    <string name="like">اعجبني</string>
+    <string name="fair">جيد</string>
+    <string name="dislike">لم يعجبني</string>
+    <string name="like_wffr">هل اعجبك وفر ؟</string>
+
+    <string name="logout_alert">هل انت متأكد من تسجيل الخروج ؟</string>
+
+    <string name="phone_email_error">الايميل او رقم المحمول مستخدم سابقا</string>
+
+    <string name="no_shops">لا توجد محلات متاحه</string>
+
+    <string name="phone_exist_error">رقم المحمول مستخدم سابقا</string>
+
+    <string name="ok_dialog">حسنا</string>
+
+    <string name="points_desc">
+
+        - جمع النقاط في كل مرة تقوم بالشراء واستبدلها بمشتريات \n
+        - انت مشترك تلقائياً ببرنامج نقاط المكافآت \n
+        - يتم استبدال النقاط عندما تقوم بتجميع 10000 نقطة أو أكثر \n
+        - يمكنك متابعة نقاطك من خلال الحساب \n
+        - لايمكن استخدام النقاط بعد 45 يوم \n
+
+    </string>
+
+    <string name="point">Point</string>
+    <string name="exchange_points">استبدال النقاط</string>
+    <string name="statistics">احصائيات</string>
+    <string name="more">المزيد</string>
+
+    <array name="months_arr">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+
+    <string name="add_shop_alert">سيقوم احد مندوبي المبيعات بالتواصل معكم في اقرب وقت لاتمام عمليه التسجيل</string>
+    <string name="done">حسنا</string>
+    <string name="expire_in">ينتهي في</string>
+    <string name="resend">اعاده ارسال</string>
+    <string name="verify">تحقق</string>
+    <string name="out_date">قم بتحديث التطبيق للاستخدام</string>
+    <string name="update">تحديث</string>
+    <string name="year_month">السنه / الشهر</string>
+    <string name="check_new_pass">افحص رقم المحمول للحصول علي كلمه مرور جديده</string>
+
+</resources>

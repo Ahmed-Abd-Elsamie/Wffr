@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_light"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/like_wffr"
+        android:textSize="20dp"
+        android:fontFamily="@font/cairosemibold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_like"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:background="@color/white"
+
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_outline_emoji_emotions_35"
+                android:layout_gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/like"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/cairosemibold"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_fair"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:background="@color/white"
+
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_sentiment_satisfied_35"
+                android:layout_gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fair"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/cairosemibold"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_dislike"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:background="@color/white"
+
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_sentiment_very_dissatisfied_35"
+                android:layout_gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dislike"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/cairosemibold"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

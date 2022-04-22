@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="25dp"
+    android:id="@+id/card_view"
+    android:layoutDirection="ltr"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/logoeeee"
+            android:id="@+id/img_product"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:background="@color/colorPrimaryDark"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:gravity="center"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_name"
+                    android:text="T-shirt"
+                    android:fontFamily="@font/roboto_light"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/logo5"
+                    android:id="@+id/img_seller"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/prev_price"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_price"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/grey"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="250"
+                        android:gravity="center"
+
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/red"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:rotation="10"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_discount"
+                    android:text="10 % discount"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_rat"
+                    android:text="3.5"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+
+                    />
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/star1"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

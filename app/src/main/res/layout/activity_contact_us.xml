@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.ContactUsActivity"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+
+            >
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:id="@+id/btn_back"
+                android:layout_margin="15dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_baseline_call_white_35"
+                android:id="@+id/aaaa"
+                android:layout_margin="15dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="15dp"
+            android:layoutDirection="locale"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tool"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lin_face"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+
+                >
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgwa2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="10dp"
+                    android:elevation="13dp"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/facebook1"/>
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook.com"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lin_instgram"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="10dp"
+
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img4"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:elevation="13dp"
+                    android:padding="3dp"
+
+                    app:srcCompat="@drawable/instagram1"/>
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instagram.com"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lin_twitter"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="10dp"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_twitr"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="10dp"
+                    android:elevation="13dp"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter1"/>
+                <TextView
+                    android:id="@+id/tv_twit"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter.com"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/lin_in"
+                android:gravity="start|center_vertical"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_in"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="14dp"
+
+                    android:padding="8dp"
+                    android:background="@drawable/rectanglar_ed_oval"
+                    app:srcCompat="@drawable/linkedin_white"/>
+                <TextView
+                    android:id="@+id/tv_in"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LinkedIn.com"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lin_watts"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="13dp"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_whatts"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="14dp"
+                    android:padding="7dp"
+                    android:background="@drawable/rectanglar_ed_oval"
+                    app:srcCompat="@drawable/whatts"/>
+                <TextView
+                    android:id="@+id/tv_whats"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WhattsApp"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lin_gmail"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="13dp"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_gmail"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="14dp"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/goog_plus"/>
+                <TextView
+                    android:id="@+id/tv_gmail"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gmail.com"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lin_call"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="13dp"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_call"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="14dp"
+                    android:scaleType="centerCrop"
+                    android:padding="7dp"
+                    android:background="@drawable/rectanglar_ed_oval"
+                    android:src="@drawable/ic_call_white"/>
+                <TextView
+                    android:id="@+id/tv_call"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call"
+                    android:textSize="26dp"
+                    android:textDirection="rtl"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_social"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:scrollbars="none"
+                android:orientation="horizontal"
+                android:padding="10dp"
+
+                />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</layout>
